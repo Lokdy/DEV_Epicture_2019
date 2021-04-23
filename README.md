@@ -24,9 +24,13 @@ Une fois l’installation de flutter effectuée avec succès, il vous suffira de
 Vous pouvez utiliser cette méthode pour installer manuellement l’application sur votre smartphone android.
 
 Quand vous êtes à la racine, il faudra télécharger tous les packages nécessaires au bon fonctionnement de l’application. Pour ce faire, il vous suffit d’écrire et de lancer la commande suivante dans votre interpréteur de commandes :
+
 ```flutter --no-color packages get```
+
 A la fin de l’installation, il reste à construire l’APK (programme d’installation de l’application) avec la commande suivante à écrire et lancer dans un interpréteur de commandes :
+
 ```flutter build apk –release```
+
 Vous pourrez trouver l’APK dans le dossier : /build/app/outputs/apk/release/app.apk
 La dernière étape est de l’installer sur votre smartphone et de lancer l’application nommée « epicture »
 
